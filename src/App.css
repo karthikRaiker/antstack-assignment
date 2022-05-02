@@ -1,0 +1,36 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 3rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form input {
+  margin-top: 1rem;
+  width: 200px;
+  cursor: pointer;
+  padding: 4px 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid #c7c6c6;
+}
+.form .csvFile {
+  border: none;
+  width: 300px;
+}
+.Table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.Heading {
+  color: #555;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}

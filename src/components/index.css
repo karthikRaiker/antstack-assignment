@@ -1,0 +1,34 @@
+.Filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.Filter-Option {
+  display: flex;
+  align-items: center;
+}
+.Filter-Option label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+table {
+  width: 100%;
+  margin-top: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+tr {
+  border-bottom: 1px solid #333;
+  background-color: white;
+}
+th {
+  border: 1px solid #333;
+  background-color: #c5c5c5;
+  padding: 0.3rem;
+}
+td {
+  text-align: center;
+  padding: 0.3rem;
+}
