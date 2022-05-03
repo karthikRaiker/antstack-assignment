@@ -53,4 +53,4 @@ function Table({ heading, data }) {
   );
 }
 
-export default Table;
+export default React.memo(Table);

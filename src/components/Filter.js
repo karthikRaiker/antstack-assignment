@@ -29,4 +29,4 @@ function Filter({ dispatch }) {
   );
 }
 
-export default Filter;
+export default React.memo(Filter);
