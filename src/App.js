@@ -116,7 +116,7 @@ function App() {
       {file ? (
         <div className="Table">
           <div className="Heading">Table</div>
-          <Filter handleFilter={handleFilter} dispatch={dispatch} />
+          <Filter dispatch={dispatch} />
           <Table heading={heading} data={filterData} />
         </div>
       ) : (

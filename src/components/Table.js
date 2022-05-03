@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./component.css";
 
 function Table({ heading, data }) {
   const convertTitleCase = (str) => {
